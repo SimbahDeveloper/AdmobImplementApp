@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="title_activity_setting">SettingAct</string>
+
+    <!--TESTADS-->
+    <string name="TestMobileAds">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="TestUnitBannerID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="TestIntertitialID">ca-app-pub-3940256099942544/1033173712</string>
+    <!--MYADS-->
+    <string name="MobileAds">ca-app-pub-7283269429309581~2354272582</string>
+    <string name="UnitBannerID">ca-app-pub-7283269429309581/5583071156</string>
+
+    <string name="error0">please check your account admob in website, an invalid response was received from the ad server.</string>
+    <string name="error1">the ad unit was incorrect, please check your ID and Size of AD</string>
+    <string name="error2">check your connection, the ad request was unsuccessful due to network connectivity.</string>
+    <string name="error3">The ad request was successful, but no ad was returned due to lack of ad inventory.</string>
+</resources>

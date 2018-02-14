@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "911125601142",
+    "firebase_url": "https://apps-57eed.firebaseio.com",
+    "project_id": "apps-57eed",
+    "storage_bucket": "apps-57eed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911125601142:android:19246b517dceeb47",
+        "android_client_info": {
+          "package_name": "com.iak.tuyul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911125601142-b16sil3li105nj3ipiv25vv5va0k095v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iak.tuyul",
+            "certificate_hash": "35abf251e4a8309b32df690b91103424279ab232"
+          }
+        },
+        {
+          "client_id": "911125601142-8v7d78t31eq8p97h2ce2tt6qu06n8m44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iak.tuyul",
+            "certificate_hash": "189dfafa1000853e2573f87f54f263795691d7fc"
+          }
+        },
+        {
+          "client_id": "911125601142-ql0qmhklck3h4eqr26us0d160c56dlo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQWCi6nvFv_D7qmesZjup9aYbPt0qI2-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911125601142-ql0qmhklck3h4eqr26us0d160c56dlo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911125601142:android:572964c5b2c5ba84",
+        "android_client_info": {
+          "package_name": "com.crypto.currency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911125601142-5hpluu2j8fuehgnb0nsm913nbpmpuebk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crypto.currency",
+            "certificate_hash": "189dfafa1000853e2573f87f54f263795691d7fc"
+          }
+        },
+        {
+          "client_id": "911125601142-ql0qmhklck3h4eqr26us0d160c56dlo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQWCi6nvFv_D7qmesZjup9aYbPt0qI2-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911125601142-ql0qmhklck3h4eqr26us0d160c56dlo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

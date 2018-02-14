@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.crypto.currency.SettingAct"
+    tools:showIn="@layout/activity_setting">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent"
+                android:paddingBottom="16dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/textViewx1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"/>
+                        <TextView
+                            android:id="@+id/textViewx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="APP ID"
+                            android:textColor="#fff"/>
+                        <EditText
+                            android:id="@+id/ET_appid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"/>
+                        <TextView
+                            android:id="@+id/textViewx3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BANNER UNIT ID"
+                            android:textColor="#fff"/>
+                        <EditText
+                            android:id="@+id/ET_bannerId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"/>
+                        <TextView
+                            android:id="@+id/textViewx4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="INTERTITIAL UNIT ID"
+                            android:textColor="#fff"/>
+                        <EditText
+                            android:id="@+id/ET_interID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"/>
+                        <TextView
+                            android:id="@+id/textViewx5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CATEGORY"
+                            android:textColor="#fff"/>
+                        <EditText
+                            android:id="@+id/ET_catID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"/>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/colorAccent"
+                    android:text="Genneral Setting"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent"
+                android:paddingBottom="16dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+                    <LinearLayout
+                        android:id="@+id/LT_ads"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <TextView
+                            android:id="@+id/textViewxx3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/colorAccent"
+                    android:text="Adverstising"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent"
+                android:paddingBottom="16dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/textViewxx1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"/>
+                        <TextView
+                            android:id="@+id/textViewx6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Show Ad"
+                            android:textColor="#fff"/>
+                        <EditText
+                            android:id="@+id/ET_tottalAd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"
+                            android:hint=""
+                            android:ems="4"
+                            android:inputType="number"/>
+                        <LinearLayout
+                            android:id="@+id/auto_relod_banner_linear"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+                            <CheckBox
+                                android:id="@+id/auto_relod_cb"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Auto Reload"
+                                android:background="#fff"
+                                android:padding="5dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/TV_sizebaner"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Size Banner :"
+                                android:textColor="#fff"/>
+                            <RadioGroup
+                                android:id="@+id/sizeRadio"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#fff">
+
+                                <RadioButton
+                                    android:id="@+id/radio1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="BANNER (Phones and Tablets) Standard Banner" />
+                                <RadioButton
+                                    android:id="@+id/radio2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="LARGE_BANNER (Phones and Tablets)"/>
+                                <RadioButton
+                                    android:id="@+id/radio3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="MEDIUM_RECTANGLE (Phones and Tablets)"/>
+                                <RadioButton
+                                    android:id="@+id/radio4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="FULL_BANNER (Tablets)"/>
+                                <RadioButton
+                                    android:id="@+id/radio5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="LEADERBOARD (Tablets)"/>
+                                <RadioButton
+                                    android:id="@+id/radio6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="SMART BANNER (Phones and Tablets)"/>
+                            </RadioGroup>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/colorAccent"
+                    android:text="Banner Setting"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent"
+                android:paddingBottom="5dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:padding="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/textViewxx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"/>
+                        <LinearLayout
+                            android:id="@+id/chextBoxser"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="5dp">
+                            <CheckBox
+                                android:id="@+id/auto_relod_inter"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Auto Reload + Close Self"
+                                android:background="#fff"
+                                android:padding="5dp"/>
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/colorAccent"
+                    android:text="Interstitial Setting"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="SAVE"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:onClick="Save"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
