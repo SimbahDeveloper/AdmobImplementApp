@@ -48,7 +48,7 @@ public class SettingAct extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
-        MobileAds.initialize(this,getString(R.string.TestMobileAds));
+        MobileAds.initialize(this,getString(R.string.MobileAds));
         adsVio();
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -108,7 +108,7 @@ public class SettingAct extends AppCompatActivity {
 
         final AdView mAdView = new AdView(this);
         mAdView.setAdSize(AdSize.MEDIUM_RECTANGLE);
-        mAdView.setAdUnitId(getString(R.string.TestUnitBannerID));
+        mAdView.setAdUnitId(getString(R.string.UnitBannerID));
         mAdView.setAdListener(new AdListener(){
             boolean load=true;
             @Override
